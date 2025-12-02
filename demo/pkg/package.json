@@ -1,0 +1,15 @@
+{
+  "name": "gswt",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "gswt_bg.wasm",
+    "gswt.js",
+    "gswt.d.ts"
+  ],
+  "main": "gswt.js",
+  "types": "gswt.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
